@@ -64,9 +64,9 @@
 }
 
 .banner img {
-    width: 485px;
+    width: 510px;
     position: absolute;
-    right: 15%;
+    right: 10%;
     bottom: 15%;
 }
 
@@ -79,7 +79,8 @@
     width: 470px;
     color: #fff;
     position: absolute;
-    bottom: 18%;
+    bottom: 20%;
+    left: 15%;
 }
 
 .banner-part3 h2 {
