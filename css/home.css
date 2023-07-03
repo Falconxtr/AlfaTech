@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Seção Topo */
+.topo {
+    padding: 35px 0;
+    width: 100%;
+    height: 25vh;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.topo img {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.topo p {
+    font-size: 16px;
+    color: #2f86d6;
+    font-weight: bold;
+    position: absolute;
+    left: 17%;
+    top: 55%;
+}
+
+.topo h1 {
+    font-size: 32px;
+    color: #000000;
+    position: absolute;
+    left: 17%;
+    top: 25%;
+}
+
+.topo a {
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.topo span {
+    position: absolute;
+    top: 45%;
+    right: 13%;
+}
+
+/* Seção Banner */
+.banner {
+    background-color: #2f86d6;
+    padding: 180px 0;
+    height: 85vh;
+    position: relative;
+}
+
+.banner img {
+    width: 485px;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
+
+.banner-part2 {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.banner-part3 {
+    width: 470px;
+    color: #fff;
+    position: absolute;
+    bottom: 18%;
+}
+
+.banner-part3 h2 {
+    font-size: 30px;
+    line-height: 50px;
+    padding: 15px 0;
+}
+
+.banner-part3 p, .banner-part3 h2 {
+    text-align: left;
+}
+
+.banner-part3 p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
