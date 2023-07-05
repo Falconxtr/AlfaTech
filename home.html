@@ -9,23 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="topo">
-        <div class="topo-p2">
-            <img src="img/logo-icone.png" alt="logo icone">
-            <h1>AlfaTech</h1>
-            <p>Soluções em hospedagem</p>
-            <span>
-                <a href="home.html#informacoes">INFORMAÇÕES</a>
-                <a href="home.html#planos">PLANOS</a>
+<div>
+    <div> <!-- Seção Topo-->
+        <div class="topo limitar-secao"> 
+            <div class="topo-logo">
+                <img src="img/logo-icone.png" alt="logo icone" />
+                <div>
+                    <h1>AlfaTech</h1>
+                    <p>Soluções em hospedagem</p>
+                </div>
+            </div>
+            <div class="topo-links">
+                <a href="#informacoes">INFORMAÇÕES</a>
+                <a href="#planos">PLANOS</a>
                 <a href="tabeladeprecos.html">PREÇOS</a>
-                <a href="home.html#contato">CONTATO</a>
-            </span>
+                <a href="#contato">CONTATO</a>
+            </div>
         </div>
     </div>
-    <div class="banner">
-        <div class="banner-part2">
-            <div class="banner-part3">
+    <div class="banner"> <!-- Seção Banner -->
+        <div class="banner-part2 limitar-secao">
+            <div>
                 <p>Simples - Fácil de usar - 10x mais rápido</p>
                 <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
                 <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
@@ -33,77 +37,73 @@
             <img src="img/imagem-banner.png">
         </div>
     </div>
-    <div class="anuncio primeiro-anuncio">
-        <div class="anuncio-part2">
-            <div class="anuncio-part3">
+    <div class="primeiro-anuncio"> <!-- Seção Primeiro Anúncio -->
+        <div class="primeiro-anuncio-part2 limitar-secao">
+            <div>
                 <h2>Hospede o seu site por apenas R$29 por mês.</h2>
                 <p>Também temos planos gratuitos. Adquira já o seu.</p>
             </div>
             <a href="tabeladeprecos.html">
-                <div class="link-anuncio1">
-                    <img src="img/icone-foguete.png">
-                    <p>TABELA DE PREÇOS</p>
-                </div>
+                <img src="img/icone-foguete.png" alt="foguete">
+                <span>TABELA DE PREÇOS</span>
             </a>
         </div>
     </div>
-    <div id="informacoes" class="informacoes">
+    <div id="informacoes" class="secao-informacoes"> <!-- Seção Informações -->
         <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h2>
-        <table class="informacoes-part2">
-            <thead>
-                <tr>
-                    <th><img src="img/icone-engrenagens.png"></th>
-                    <th><img src="img/cloud-icone.png"></th>
-                    <th><img src="img/icone-suporte.png"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><h3>Fácil de configurar</h3></td>
-                    <td><h3>Servidores 100% Online</h3></td>
-                    <td><h3>Suporte 24/7</h3></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td><p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p></td>
-                    <td><p>Serviços que operam 100% do tempo para manter o seu site online...</p></td>
-                    <td><p>Suporte altamente treinado e especializado em soluções de Cloud...</p></td>
-                </tr>
-            </tfoot>
-        </table>
+        <div class="informacoes-part2 limitar-secao">
+            <div>
+                <img src="img/icone-engrenagens.png" alt="Ícone" />
+                <h3>Fácil de configurar</h3>
+                <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia...</p>
+            </div>
+            <div class="card2">
+                <img src="img/cloud-icone.png" alt="ícone" />
+                <h3>Servidores 100% Online</h3>
+                <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
+            </div>
+            <div class="card3">
+                <img src="img/icone-suporte.png" alt="ícone" />
+                <h3>Suporte 24/7</h3>
+                <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+            </div>
+        </div>
     </div>
-    <div id="planos" class="planos">
+    <div id="planos" class="secao-planos"> <!-- Seção Planos-->
         <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>    
-        <table class="planos-tabelas">
+        <table>
             <thead>
                 <tr>
-                    <th><h3>PESSOAL</h3></th>
-                    <th><h3>PROFISSIONAL</h3></th>
-                    <th><h3>EMPRESARIAL</h3></th>
-                    <th><h3>BIG TECHS</h3></th>
+                    <th>
+                        <h3>PESSOAL</h3>
+                        <img src="img/pessoal-icone.png" alt="Ícone">
+                        <p>Indicado para uso pessoal</p>
+                    </th>
+                    <th>
+                        <h3>PROFISSIONAL</h3>
+                        <img src="img/empresa-icone.png" alt="Ícone">
+                        <p>Indicado para profissionais de T.I</p>
+                    </th>
+                    <th>
+                        <h3>EMPRESARIAL</h3>
+                        <img src="img/empresa-icone.png" alt="Ícone">
+                        <p>Indicado para empresas</p>
+                    </th>
+                    <th>
+                        <h3>BIG TECHS</h3>
+                        <img src="img/big-tech.png" alt="Ícone">
+                        <p>Indicado para grandes empresas</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><img src="img/pessoal-icone.png"></td>
-                    <td><img src="img/equipe-icone.png"></td>
-                    <td><img src="img/empresa-icone.png"></td>
-                    <td><img src="img/big-tech.png"></td>
-                </tr>
-                <tr>
-                    <th><h4>Indicado para uso pessoal</h4></th>
-                    <th><h4>Indicado para profissionais de T.I</h4></th>
-                    <th><h4>Indicado para empresas</h4></th>
-                    <th><h4>Indicado para grandes empresas</h4></th>
-                </tr>
                 <tr class="fundo-cinza">
                     <td>1 usuário</td>
                     <td>10 usuários</td>
                     <td>25 usuários</td>
                     <td>50 usuários</td>
                 </tr>
-                <tr>
+                <tr class="fundo-branco">
                     <td>1 domínio grátis</td>
                     <td>2 domínios grátis</td>
                     <td>2 domínios grátis</td>
@@ -115,51 +115,48 @@
                     <td>1TB SSD espaço</td>
                     <td>2TB SSD espaço</td>
                 </tr>
-                <tr>
+                <tr class="fundo-branco">
                     <td>Ofertas especiais</td>
                     <td>Ofertas especiais</td>
                     <td>Ofertas especiais</td>
                     <td>Ofertas especiais</td>
                 </tr>
-            </tbody>
-            <tfoot>
                 <tr class="fundo-cinza">
                     <td>Suporte limitado</td>
                     <td>Suporte ilimitado</td>
                     <td>Suporte ilimitado</td>
                     <td>Suporte ilimitado</td>
                 </tr>
-            </tfoot>
+            </tbody>
         </table>
     </div>
-    <div class="anuncio segundo-anuncio">
-        <div class="anuncio-part2">
-            <div class="anuncio-part3">
-                <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
-            </div>
+    <div class="segundo-anuncio"> <!-- Seção Segundo Anúncio-->
+        <div class="segundo-anuncio-part2 limitar-secao">
+            <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
             <a href="tabeladeprecos.html">
-                <div class="link-anuncio2">
-                    <img src="img/icone-foguete.png">
-                    <p>TABELA DE PREÇOS</p>
-                </div>
+                <img src="img/icone-foguete.png">
+                <span>TABELA DE PREÇOS</span>
             </a>
         </div>
     </div>
-    <div id="contato" class="rodape">
-        <div class="rodape-logo">
-            <img src="img/logo-icone.png">
-            <h1>AlfaTech</h1>
-            <p>Soluções em hospedagem</p>
+    <div> <!-- Seção Rodapé -->
+        <div class="rodape"> 
+            <img src="img/logo-icone.png" alt="Ícone">
+            <div>
+                <h1>AlfaTech</h1>
+                <p>Soluções em hospedagem</p>
+            </div>
         </div>
-        <div class="rodape-paragrafo">
+        <div id="contato" class="rodape-contatos">
             <p>Telefone & Whatsapp: (21) 99999-5555</p>
             <p>E-mail: suporte@alfatech.com</p>
             <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
             <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
         </div>
+        <div class="rodape-copyright">
+            <p>Desenvolvido por <span>Lucas Teixeira de Jesus</span></p>
+        </div>
     </div>
-    <div class="rodape-part2">
-        <p>Desenvolvido por <span>Lucas Teixeira de Jesus</span></p>
-    </div>
+</div>
 </body>
 </html>
