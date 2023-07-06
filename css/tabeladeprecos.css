@@ -1,0 +1,157 @@
+/* Estilos Globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Seção Topo */
+.fundo-azul {
+    background-color: #2f86d6;
+}
+
+.topo {
+    position: relative;
+    padding: 35px 0px;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    width: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo p {
+    color: #fff;
+}
+
+.topo-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.topo-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+/* Seção Preços */
+.secao-precos {
+    padding: 100px 0px;
+}
+
+.secao-precos table {
+    margin: auto;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
+
+.celula-cabecalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+}
+
+.celula-cabecalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+.celula-cabecalho h2 {
+    font-size: 36px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.ponto-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+/* Seção Rodapé */
+.rodape {
+    padding-top: 70px;
+    background-color: #2f86d6;
+}
+
+.rodape-logo {
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+
+.rodape-logo img {
+    width: 80px;
+}
+
+.rodape-logo div {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape-logo p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.paragrafo-rodape {
+    text-align: center;
+    margin: 20px 0 70px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.rodape-copyright {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+.rodape-copyright span {
+    color: #2f86d6;
+}
