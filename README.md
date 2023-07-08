@@ -2,7 +2,7 @@
 Esse é um projeto desenvolvido pela DevMedia. A proposta desse projeto é criar um site utilizando as tecnologias HTML e CSS. Foi usado os conceitos de nagevação entre páginas e tags de tabelas.
 
 ## Conhecendo o projeto
-### O projeto que será criado tem como diferencial 
+#### O projeto que será criado tem como diferencial 
   - A utilização da tag HTML "table", responsável pela criação de tabelas.
   - As tabelas criadas no projeto serão responsáveis por exibir informações sobre os planos do provedor de hospedagem.
 
